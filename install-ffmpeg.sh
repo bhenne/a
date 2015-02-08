@@ -6,7 +6,7 @@ PREFIX=/usr/x86_64-w64-mingw32/sys-root/mingw
 # libtool                 needed by autoreconf
 # mingw64-x86_64-gcc-g++  need g++ for fdk-aac
 # yasm                    need for x264
-setup-x86_64 -nqP autobuild,libtool,mingw64-x86_64-gcc-g++,yasm
+setup-x86_64 -nqP autobuild,libtool,mingw64-x86_64-gcc-g++,yasm,git,make
 
 # fdk-aac
 git clone --depth 1 git://github.com/mstorsjo/fdk-aac
